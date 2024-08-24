@@ -1,0 +1,44 @@
+.small-card{
+    width:200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    height: 150px;
+    box-shadow: 0.5px 0.5px 5px gray ;
+}
+.small-card:hover{
+    margin-top: -20px;
+    transition: 0.4s;
+}
+.small-card:hover div{
+    background-color: rgba(0, 0, 0, 0.679);
+    color:#fff;
+}
+.small-card img{
+    height:60px;
+    width: 60px;
+}
+.small-card p{
+    font-weight: bold;
+    font-size: 25px;
+}
+.small-card div{
+    font-size: 14px;
+    background-color: rgba(128, 128, 128, 0.261);
+    padding: 3px;
+    border-radius: 30px;
+}
+.small-card .blue{
+    color: #28ACE5;
+}
+.small-card .green{
+    color: #409D74;
+}
+.small-card .violet{
+    color: #A768D7;
+}
+.small-card .red{
+    color: #D53B54;
+}

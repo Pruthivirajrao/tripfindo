@@ -1,0 +1,60 @@
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0;
+}
+.header .header-logo img{
+    height: 40px;
+}
+.header .header-logo img:hover{
+    cursor: pointer;
+}
+.header nav{
+    display: flex;
+    gap:25px;
+    color: #000000c4;
+    font-weight: 560;
+}
+.header nav span:hover{
+    color:#3D088B;
+    cursor: pointer;
+}
+.header .header-buttons button{
+    color:#3D088B;
+    padding: 10px 20px;
+    border:0.5px solid #3D088B;
+    margin-right: 10px;
+    font-weight: 540;
+    border-radius: 5px;
+    font-size: 17px;
+    outline: none;
+}
+.header-buttons button:hover{
+    cursor: pointer;
+    transition: 0.3s;
+    background-color: #5a25a9fd;
+}
+.header .header-buttons span{
+    margin-left: 7px;
+}
+
+.header-buttons .explore-btn{
+    background-color: #3D088B;
+    color:#fff !important;
+}
+
+/* Media Queries */
+@media(max-width:950px){
+    .header nav{
+        display: none;
+    }
+}
+@media(max-width:590px){
+    .header .header-buttons button{
+        padding: 5px 5px;
+    }
+    .header-buttons button span{
+        display: none;
+    }
+}

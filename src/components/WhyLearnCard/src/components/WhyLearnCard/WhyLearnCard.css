@@ -1,0 +1,39 @@
+.whyLearnCard{
+    border:0.5px solid rgba(0, 0, 0, 0.195);
+    width: 300px;
+    padding: 5px 16px;    
+}
+.whyLearnCard h3{
+    font-size: 27px;
+    font-weight: 900;
+    margin: 10px 0 ;
+}
+.whyLearn-img{
+    height: 300px;
+    margin: 5px 0 ;
+}
+.down{
+    margin-top: 60px;
+}
+
+@media(max-width:1287px){
+    .whyLearnCard{
+        border:0.5px solid rgba(0, 0, 0, 0.195);
+        width: 280px;
+        padding: 5px 10px;    
+    }
+    .whyLearnCard h3{
+        font-size: 20px;
+    }
+}
+@media(max-width:1287px){
+    .whyLearnCard h3{
+        font-size: 1.2rem;
+    }
+}
+@media(max-width:1144px){
+     .down{
+        margin-top: 0px;
+        
+    }
+}

@@ -1,0 +1,10 @@
+.max-btns{
+  padding: 10px 20px;
+  font-weight: 540;
+  border-radius: 5px;
+  font-size: 17px;
+  outline: none;
+  background-color: #3D088B;
+  color:#fff !important;
+  width:fit-content
+}

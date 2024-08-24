@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Metrophobic&display=swap');
+.hero{
+    background-color: #EDE7F4;
+    padding: 0px 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.hero .hero-container{
+    display: flex;
+    padding-top: 60px;
+    justify-content: center;
+    
+}
+.hero-container .hero-right{
+    display: flex;
+    flex-direction: column;
+    width:750px;
+    width:580px;
+    gap: 10px;
+}
+.hero .upskill-partner img{
+    height:30px;
+    width: 30px;
+}
+.hero .upskill-partner{
+    display: flex;
+    align-items: center;
+    color:#25D691;
+}
+.hero-right .landJob{
+    font-size: 45px;
+    margin-bottom: 10px;
+    line-height: 54px;
+    font-weight: 700;
+    font-family: "poppins", sans-serif;
+}
+.hero-right .landJob span{
+    color:#FD9610;
+    font-weight: 900;
+}
+.hero-right .max-btns{
+    margin-top: 30px;
+    color:#3D088B;
+    padding: 10px 20px;
+    border:0.5px solid #3D088B;
+    margin-right: 10px;
+    font-weight: 540;
+    border-radius: 5px;
+    font-size: 17px;
+    outline: none;
+    cursor: pointer;
+    transition: 0.3s;
+    background-color: #5a25a9fd;
+}
+.hero-right .hero-cards{
+    display: flex;
+    gap:50px;
+    margin-top: 20px;
+}
+.hero-right .hero-cards div{
+    display: flex;
+    align-items: center;
+    gap:10px;
+    background-color: #fff;
+    width: 200px;
+    padding:10px;
+    border-radius: 6px;
+}
+.hero-right .hero-cards div span{
+    font-weight: bold;
+    font-size: 22px;
+}
+.hero-right .hero-cards img{
+    height: 30px;
+    width:30px;
+}
+.hero-card .placement{
+    display: flex;
+    align-items: center;
+    /* flex-direction: ; */
+}
+.hero .hero-companies{
+    margin: auto;
+    position: relative;
+    margin-top: -10px;
+}
+.hero-companies .float-jobs{
+    position: absolute;
+    right:45%;
+    background-color: #fff;
+    padding:10px;
+    border-radius: 50px;
+    top:-30px;
+}
+.hero-companies .float-jobs span{
+    color:#520FB7;
+    font-size:30px;
+    font-weight: 900;
+}
+.hero-companies .companies{
+    display: flex;
+    gap:10px;
+    background-color: #fff;
+    padding:30px 5px;
+
+}
+.hero-companies .companies img{
+    width: 130px;
+}
+.hero-companies .companies{
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 10px;
+}
+/* MediaQueries */
+@media(max-width:1280px){
+    .hero{
+        padding: 0px 32px;
+        width:100%;
+        
+    }
+    .hero .hero-companies{
+        margin: auto;
+        position: relative;
+        margin-top: -10px;
+    }
+    .hero-companies .companies{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .hero-companies .companies img{
+        width: 140px;
+    }
+}
+
+@media(max-width:1056px){
+    .hero{
+        padding: 0px 100px;
+        width:100%;
+        display: flex;
+        
+    }
+    .hero .hero-container{
+        display: flex;
+        padding-top: 60px;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .hero-container .hero-right{
+        align-items: center;
+        margin: auto;
+        gap: 10px;
+    }
+    .hero-left{
+        margin: auto;
+    }
+    .hero .hero-companies{
+        margin: auto;
+        position: relative;
+        margin-top: -10px;
+    }
+    .hero-companies .companies{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .hero-companies .companies img{
+        width: 100px;
+    }
+}
+
+
+
+@media(max-width:755px){
+    .hero-right .landJob{
+        font-size: 38px;
+        margin-bottom: 7px;
+        line-height: 47px;
+        text-align: center;
+        font-weight: 700;
+        font-family: "poppins", sans-serif;
+    }
+    .hero-para{
+        text-align: center;
+    }
+}
+@media(max-width:930px){
+    .hero-companies{
+        display: none;
+    }
+}
+@media(max-width:690px){
+    .hero{
+        padding: 5px 15px;
+        margin: auto;
+        gap: 2px;
+    }
+    .hero-right .landJob{
+        font-size: 20px;
+        margin-bottom: 0px;
+        line-height: 47px;
+        text-align: center;
+        font-weight: 700;
+        font-family: "poppins", sans-serif;
+    }
+}
+
+@media(max-width:690px){
+    .hero{
+        padding: 5px 5px;
+        margin: auto;
+        gap: 2px;
+    }
+    .hero-right .landJob{
+        font-size: 20px;
+        margin-bottom: 0px;
+        line-height: 40px;
+    }
+}
+@media(max-width:600px){
+    .hero{
+        width:100%;
+    }
+    .hero-right{
+        width: 80%;
+    }
+    .hero-left{
+        width:80%
+    }
+    .hero-right .landJob{
+        font-size: 1.2rem;
+        margin-bottom: 0px;
+        line-height: 40px;
+    }
+    .hero-para{
+        font-size: 10px;
+    }
+    .hero-left{
+        max-width: 100%;
+    }
+    .hero-left img{
+        width:70%
+    }
+}
+
+

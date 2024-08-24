@@ -1,0 +1,26 @@
+.article{
+    background-color: #5100C6;
+    color:#fff;
+    font-weight: 700;
+    size:15px;
+    line-height: 26px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1% 0;
+}
+.article a{
+    color:#fff;
+    margin-left: 1.2%;
+}
+
+@media(max-width:720px){
+    .article{
+        font-size: 12px;
+    }
+}
+@media(max-width:580px){
+    .article{
+        font-size: 10px;
+    }
+}
